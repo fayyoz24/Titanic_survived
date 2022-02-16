@@ -5,6 +5,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 
+
 def data(path):
 
     df = pd.read_csv(path)
